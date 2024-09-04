@@ -27,8 +27,8 @@ Install the required dependencies:
 
 
 pip install pyqt5 pyserial esptool
-How to Run
-Connect your ESP32 device to your computer via a USB-to-COM adapter.
+   How to Run
+   Connect your ESP32 device to your computer via a USB-to-COM adapter.
 
 Run the application using the following command:
 
