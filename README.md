@@ -27,24 +27,3 @@ Install the required dependencies:
 
 
 pip install pyqt5 pyserial esptool
-   How to Run
-   Connect your ESP32 device to your computer via a USB-to-COM adapter.
-
-Run the application using the following command:
-
-python mac_address_finder.py
-In the application window:
-
-Select the appropriate COM port from the dropdown.
-Click on the "Get MAC Address" button to retrieve and display the MAC address of the ESP32 device.
-Troubleshooting
-No COM ports detected: Ensure that the ESP32 is properly connected and that the drivers for the USB-to-COM adapter are installed.
-
-esptool not found error: Make sure esptool is correctly installed. You can install it by running:
-
-pip install esptool
-Timeout issues: If the connection times out, verify that the correct COM port is selected and that the ESP32 is powered on and properly connected.
-
-Acknowledgements
-This application uses esptool, a widely used tool for flashing ESP32 devices and retrieving hardware information.
-The PyQt5 library is used for building the graphical user interface.
